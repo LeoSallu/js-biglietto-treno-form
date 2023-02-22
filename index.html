@@ -9,8 +9,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    <form id="form-treno">
+        <label for="text">Nome e Cognome</label>
+        <input id="name_lastname" type="text">
+        <label for="text">Km da percorrere</label>
+        <input  id="km_percorsi" type="number">
+        <label for="età">Fascia d'età</label>
+        <select name="età" id="età_utente">
+            <option value="maggiorenne">Maggiorenne</option>
+            <option value="minorenne">Minorenne</option>
+            <option value="over_60">Over 60</option>
+        </select>
+        <button type="button" id="genera">Genera</button>
+        <button type="reset">Annulla</button>
+    </form>
+    <div id="test">
 
+    </div>
 
 
 
