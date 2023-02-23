@@ -17,24 +17,35 @@
         <input  id="km_percorsi" type="number">
         <label for="eta">Fascia d'età</label>
         <select name="etaUtente" id="etaUtente">
-            <option value="maggiorenne">Maggiorenne</option>
-            <option value="minorenne">Minorenne</option>
-            <option value="over60">Over 60</option>
+            <option value="Maggiorenne">Maggiorenne</option>
+            <option value="Minorenne">Minorenne</option>
+            <option value="0ver">Over</option>
         </select>
         <button type="button" id="genera">Genera</button>
         <button type="reset">Annulla</button>
     </form>
-    <div id="test-name">
-
-    </div>
-    <div id="test-km">
-
-    </div>
-    <div id="test-age">
-
-    </div>
-    <div id="test-price">
-
+    <div class="biglietto_treno">
+        <h2>IL TUO BIGLIETTO</h2>
+        <div>
+            <h3>Nome passagero</h3>
+            <p id="nome"></p>
+        </div>
+        <div>
+            <h3>Offerta</h3>
+            <p id="offerta"></p>
+        </div>
+        <div>
+            <h3>Carrozza</h3>
+            <p id="carrozza"></p>
+        </div>
+        <div>
+            <h3>Codice CP</h3>
+            <p id="cp"></p>
+        </div>
+        <div>
+            <h3>Costo biglietto</h3>
+            <p id="prezzo"></p>
+        </div>
     </div>
 <script src="js/main.js"></script>
 </body>

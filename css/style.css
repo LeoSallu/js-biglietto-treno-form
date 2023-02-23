@@ -1,0 +1,17 @@
+/*
+ RESET 
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* utilities  */
+/* .biglietto_treno{
+    display: none;
+}
+.show{
+    display: block;
+} */
